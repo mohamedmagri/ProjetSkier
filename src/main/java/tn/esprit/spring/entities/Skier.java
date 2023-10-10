@@ -24,6 +24,7 @@ import lombok.experimental.FieldDefaults;
 public class Skier implements Serializable {
 
 	@Id
+
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	Long numSkier;
 	String firstName;
